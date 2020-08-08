@@ -49,8 +49,6 @@ class Client:
                 art_listing.art.owner = self
                 veneer.remove_listing(art_listing)
 
-
-
 class Listing:
     def __init__(self, art, price, seller):
         self.art = art
