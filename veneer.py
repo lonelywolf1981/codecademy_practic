@@ -70,10 +70,10 @@ moma = Client('The MOMA', 'New York', True)
 
 girl_with_mandolin = Art(artist, title, medium, year, edytta)
 print(girl_with_mandolin)
-veneera = Marketplace()
+veneer = Marketplace()
 edytta.sell_artwork(girl_with_mandolin, '6M USD')
-veneera.show_listings()
+veneer.show_listings()
 moma.buy_artwork(girl_with_mandolin)
 print(girl_with_mandolin)
-veneera.show_listings()
+veneer.show_listings()
 
